@@ -1,0 +1,28 @@
+{
+  "name": "npm-start",
+  "version": "1.0.0",
+  "description": "Start of Node Journey with TS",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npm run build && node ./build/.",
+    "lint": "npx eslint src/**",
+    "prettier": "prettier src/** --write"
+  },
+  "keywords": [
+    "node",
+    "start"
+  ],
+  "author": "Biraj Poddar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
