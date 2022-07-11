@@ -16,3 +16,6 @@ console.log(numbers.sum(arrSum, myNum));
 console.log(strings.capitalize('the quick brown fox'));
 console.log(numbers.multiply(<number>(<unknown>'5'), 8));
 console.log(lgNum(mixArr));
+
+console.log(__dirname);
+console.log(__filename);
