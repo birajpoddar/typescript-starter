@@ -1,8 +1,8 @@
 # Ignore Build folder
-build/**
+build
 
 # Ignore Node Modules
-node_modules/**
+node_modules
 
 # Mac Files
 .DS_Store
